@@ -71,8 +71,7 @@
 		A1DB06D12607018100E247DC /* SwiftPermission */ = {
 			isa = PBXGroup;
 			children = (
-				A1DB06D22607018100E247DC /* SwiftPermission.h */,
-				A1DB06D32607018100E247DC /* Info.plist */,
+				A1DB073C2607072900E247DC /* Supporting Files */,
 			);
 			path = SwiftPermission;
 			sourceTree = "<group>";
@@ -84,6 +83,15 @@
 				A1DB06DF2607018100E247DC /* Info.plist */,
 			);
 			path = SwiftPermissionTests;
+			sourceTree = "<group>";
+		};
+		A1DB073C2607072900E247DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1DB06D22607018100E247DC /* SwiftPermission.h */,
+				A1DB06D32607018100E247DC /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +354,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftPermission/Info.plist;
+				INFOPLIST_FILE = "SwiftPermission/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,7 +378,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftPermission/Info.plist;
+				INFOPLIST_FILE = "SwiftPermission/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
